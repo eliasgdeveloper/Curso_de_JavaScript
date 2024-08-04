@@ -1,0 +1,39 @@
+/* Define a fonte padrão e margens para o corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte como Arial, ou a fonte padrão sans-serif se Arial não estiver disponível */
+    margin: 20px; /* Define uma margem de 20 pixels ao redor do corpo da página */
+    padding: 0; /* Remove qualquer preenchimento adicional do corpo da página */
+    background-color: #f0f0f0; /* Define uma cor de fundo cinza claro para o corpo da página */
+}
+
+/* Estiliza o título principal da página */
+h1 {
+    color: #333; /* Define a cor do texto como um cinza escuro */
+    text-align: center; /* Centraliza o texto horizontalmente */
+}
+
+/* Estiliza o parágrafo com id "paragrafo" */
+#paragrafo {
+    font-size: 18px; /* Define o tamanho da fonte como 18 pixels */
+    color: #555; /* Define a cor do texto como um cinza médio */
+    text-align: center; /* Centraliza o texto horizontalmente */
+    margin-bottom: 20px; /* Adiciona uma margem inferior de 20 pixels */
+}
+
+/* Estiliza os botões */
+button {
+    display: block; /* Faz com que o botão se comporte como um bloco, ocupando a largura disponível */
+    margin: 10px auto; /* Centraliza o botão horizontalmente na página */
+    padding: 10px 20px; /* Adiciona 10 pixels de preenchimento acima e abaixo e 20 pixels à esquerda e à direita */
+    font-size: 16px; /* Define o tamanho da fonte como 16 pixels */
+    cursor: pointer; /* Muda o cursor para uma mãozinha quando passa sobre o botão */
+    background-color: #007bff; /* Define a cor de fundo do botão como azul */
+    color: white; /* Define a cor do texto do botão como branca */
+    border: none; /* Remove a borda padrão do botão */
+    border-radius: 5px; /* Adiciona bordas arredondadas de 5 pixels ao botão */
+}
+
+/* Estiliza os botões quando o mouse passa sobre eles */
+button:hover {
+    background-color: #0056b3; /* Muda a cor de fundo para azul escuro quando o mouse passa sobre o botão */
+}
